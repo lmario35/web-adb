@@ -1,20 +1,23 @@
-{
-  "name": "web-adb",
-  "version": "1.0.0",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@yume-chan/adb": "^0.0.24",
-    "@yume-chan/adb-credential-web": "^0.0.24",
-    "@yume-chan/adb-daemon-webusb": "^0.0.24"
-  },
-  "devDependencies": {
-    "vite": "^5.4.10"
-  }
-}
+{
+  "name": "web-adb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@yume-chan/adb": "^0.0.24",
+    "@yume-chan/adb-credential-web": "^0.0.24",
+    "@yume-chan/adb-daemon-webusb": "^0.0.24"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  }
+}
+
